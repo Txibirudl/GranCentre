@@ -32,6 +32,7 @@
         android:orientation="horizontal"
         android:layout_marginTop="140dp"
         android:padding="20sp"
+        android:onClick="onClick"
         >
 
         <ImageButton
