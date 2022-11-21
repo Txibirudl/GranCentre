@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">GranCentre</string>
     <string name="titulo1">Gran Centre</string>
+    <string-array name="restaurants_array">
+        <item>Tots</item>
+        <item>Italià</item>
+        <item>Japones</item>
+        <item>Menjar Rapid</item>
+    </string-array>
 
 </resources>
