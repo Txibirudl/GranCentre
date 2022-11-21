@@ -42,6 +42,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(Hotels);
         }
 
+        if(view.getId()==R.id.bt3) {
+            Intent Movies = new Intent(this, movies.class);
+            startActivity(Movies);
+        }
+
+
     }
 
 }
