@@ -19,7 +19,6 @@
         <item>5 Estrellas</item>
     </string-array>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="adreca1">Plaza dels Paisos Catalans s n 08014, Barcelona</string>
     <string name="adreca2">Carrer de la Creu Coberta 20 8014, Barcelona </string>
     <string name="adreca3">Avinguda Diagonal 414. 08037, Barcelona</string>
@@ -35,7 +34,7 @@
     <string name="adreca13">Avenida Alvaro Alonso Barba 41092, Sevilla</string>
     <string name="adreca14">Paseo Campo Volantin 11 48007, Bilbao</string>
     <string name="adreca15">Avenida del Castillo SN Caleta de Fuste. 35610, Antigua</string>
-    <string name="titulomovies">Películas</string>
+    <string name="titulomovies">PELÍCULAS</string>
     <string name="t1">Avatar</string>
     <string name="t2">Avatar 2</string>
     <string name="t3">Black Panther: Wakanda Forever</string>

@@ -11,7 +11,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
+import com.example.grancentre.MainActivity;
 import com.example.grancentre.R;
+import com.example.grancentre.Restaurants.Restaurants;
 
 public class Hotels extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
@@ -382,5 +384,9 @@ public class Hotels extends AppCompatActivity implements AdapterView.OnItemSelec
     }
 
 
+    public void onClick(View view) {
 
+        Intent Menu = new Intent(this, MainActivity.class);
+        startActivity(Menu);
+    }
 }
