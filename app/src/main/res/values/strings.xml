@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">GranCentre</string>
     <string name="titulo1">Gran Centre</string>
+    <string name="tituloHotels">HOTELS</string>
     <string-array name="restaurants_array">
         <item>Tots</item>
         <item>Italià</item>
