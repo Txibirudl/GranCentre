@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Hotels.Hotels"
     android:layout_gravity="center"
+    android:orientation="vertical"
     >
 
     <TextView
@@ -18,7 +19,273 @@
         android:layout_marginTop="10sp"
         />
 
+    <Spinner
+        android:id="@+id/SpinnerHotels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel1"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel2"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel3"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel4"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel6"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel7"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel8"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel9"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
 
 
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel10"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
 
+            <TextView
+                android:id="@+id/info10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel11"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel12"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel13"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel14"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Hotel15"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="@color/material_dynamic_neutral40"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/info15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
 </LinearLayout>

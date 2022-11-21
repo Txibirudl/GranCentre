@@ -9,4 +9,16 @@
         <item>Menjar Rapid</item>
     </string-array>
 
+    <string-array name="estrellas_array">
+
+        <item>1 Estrella</item>
+        <item>2 Estrellas</item>
+        <item>3 Estrellas</item>
+        <item>4 Estrellas</item>
+        <item>5 Estrellas</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
