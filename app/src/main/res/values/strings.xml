@@ -35,6 +35,14 @@
     <string name="adreca13">Avenida Alvaro Alonso Barba 41092, Sevilla</string>
     <string name="adreca14">Paseo Campo Volantin 11 48007, Bilbao</string>
     <string name="adreca15">Avenida del Castillo SN Caleta de Fuste. 35610, Antigua</string>
+    <string name="titulomovies">Películas</string>
+    <string name="t1">Avatar</string>
+    <string name="t2">Avatar 2</string>
+    <string name="t3">Black Panther: Wakanda Forever</string>
+    <string name="t4">Smile</string>
+    <string name="t5">Lilo, mi amigo el cocodrilo</string>
+    <string name="t6">Black Adam</string>
+    <string name="t7">COMING SOON</string>
 
 
 </resources>
