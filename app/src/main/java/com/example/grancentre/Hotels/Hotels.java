@@ -3,7 +3,8 @@ package com.example.grancentre.Hotels;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
-import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -14,13 +15,207 @@ import com.example.grancentre.R;
 
 public class Hotels extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
+    String hl1 = "https://www.barcelo.com/es-es/barcelo-sants/";
+    String hl2 = "https://www.barcelo.com/es-es/occidental-barcelona-1929/";
+    String hl3 = "https://www.barcelo.com/es-es/occidental-diagonal-414/";
+    String hl4 = "https://www.barcelo.com/es-es/barcelo-raval/";
+    String hl5 = "https://www.barcelo.com/es-es/occidental-atenea-mar/";
+    String hl6 = "https://www.barcelo.com/es-es/barcelo-punta-umbria-beach-resort/";
+    String hl7 = "https://www.barcelo.com/es-es/barcelo-lanzarote-active-resort/";
+    String hl8 = "https://www.barcelo.com/es-es/barcelo-margaritas/";
+    String hl9 = "https://www.barcelo.com/es-es/royal-hideaway-sancti-petri/";
+    String hl10 = "https://www.barcelo.com/es-es/barcelo-bavaro-palace/";
+    String hl11 = "https://www.barcelo.com/es-es/barcelo-torre-de-madrid/";
+    String hl12 = "https://www.barcelo.com/es-es/barcelo-santiago/";
+    String hl13 = "https://www.barcelo.com/es-es/barcelo-sevilla-renacimiento/";
+    String hl14 = "https://www.barcelo.com/es-es/barcelo-bilbao-nervion/";
+    String hl15 = "https://www.barcelo.com/es-es/barcelo-fuerteventura-castillo/";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hotels);
+        CardView h1 = findViewById(R.id.Hotel1);
+        CardView h2 = findViewById(R.id.Hotel2);
+        CardView h3 = findViewById(R.id.Hotel3);
+        CardView h4 = findViewById(R.id.Hotel4);
+        CardView h5 = findViewById(R.id.Hotel5);
+        CardView h6 = findViewById(R.id.Hotel6);
+        CardView h7 = findViewById(R.id.Hotel7);
+        CardView h8 = findViewById(R.id.Hotel8);
+        CardView h9 = findViewById(R.id.Hotel9);
+        CardView h10 = findViewById(R.id.Hotel10);
+        CardView h11 = findViewById(R.id.Hotel11);
+        CardView h12 = findViewById(R.id.Hotel12);
+        CardView h13 = findViewById(R.id.Hotel13);
+        CardView h14 = findViewById(R.id.Hotel14);
+        CardView h15 = findViewById(R.id.Hotel15);
 
+        h1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl1));
+                startActivity(intent);
+            }
+        });
 
+        h2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl2));
+                startActivity(intent);
+            }
+        });
+
+        h3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl3));
+                startActivity(intent);
+            }
+        });
+
+        h4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl4));
+                startActivity(intent);
+            }
+        });
+
+        h5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl5));
+                startActivity(intent);
+            }
+        });
+
+        h6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl6));
+                startActivity(intent);
+            }
+        });
+
+        h7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl7));
+                startActivity(intent);
+            }
+        });
+
+        h8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl8));
+                startActivity(intent);
+            }
+        });
+
+        h9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl9));
+                startActivity(intent);
+            }
+        });
+
+        h10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl10));
+                startActivity(intent);
+            }
+        });
+
+        h11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl11));
+                startActivity(intent);
+            }
+        });
+
+        h12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl12));
+                startActivity(intent);
+            }
+        });
+
+        h13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl13));
+                startActivity(intent);
+            }
+        });
+
+        h14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl14));
+                startActivity(intent);
+            }
+        });
+
+        h15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(hl15));
+                startActivity(intent);
+            }
+        });
 
 
 
@@ -39,10 +234,6 @@ public class Hotels extends AppCompatActivity implements AdapterView.OnItemSelec
     }
 
 
-    @Override
-    public void onNothingSelected(AdapterView<?> adapterView) {
-
-    }
 
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
@@ -184,5 +375,12 @@ public class Hotels extends AppCompatActivity implements AdapterView.OnItemSelec
         }
 
     }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
+
+    }
+
+
 
 }

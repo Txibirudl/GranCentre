@@ -18,10 +18,23 @@
         <item>4 Estrellas</item>
         <item>5 Estrellas</item>
     </string-array>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="adreca1">Direccio 1</string>
-    <string name="adreca2">Direccio 2</string>
+    <string name="adreca1">Plaza dels Paisos Catalans s n 08014, Barcelona</string>
+    <string name="adreca2">Carrer de la Creu Coberta 20 8014, Barcelona </string>
+    <string name="adreca3">Avinguda Diagonal 414. 08037, Barcelona</string>
+    <string name="adreca4">Rambla del Raval 17-21 08001, Barcelona</string>
+    <string name="adreca5">Paseo Garcia Faria 37 47 08019, Barcelona</string>
+    <string name="adreca6">Avenida del Decano s n.21101,Punta Umbría</string>
+    <string name="adreca7">Avda del Mar 6 35508, Costa Teguise</string>
+    <string name="adreca8">Avenida Gran Canaria 38. 35100, Playa del Inglés</string>
+    <string name="adreca9">UrbLoma Sancti Petri s n. 11139, Cádiz</string>
+    <string name="adreca10">Playa Bavaro KM 1 no 1. 03177, Punta Cana</string>
+    <string name="adreca11">Plaza de Espana 18. 28008, Madrid</string>
+    <string name="adreca12">Calle La Hondura 8 38683, Puerto Santiago</string>
+    <string name="adreca13">Avenida Alvaro Alonso Barba 41092, Sevilla</string>
+    <string name="adreca14">Paseo Campo Volantin 11 48007, Bilbao</string>
+    <string name="adreca15">Avenida del Castillo SN Caleta de Fuste. 35610, Antigua</string>
 
 
 </resources>

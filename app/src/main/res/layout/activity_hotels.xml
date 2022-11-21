@@ -36,12 +36,21 @@
         android:padding="10dp"
         >
         <androidx.cardview.widget.CardView
+
             android:id="@+id/Hotel1"
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h1"
+                android:scaleType="fitXY"
+                tools:ignore="ContentDescription" />
+
+
 
             <TextView
                 android:id="@+id/info1"
@@ -49,10 +58,17 @@
                 android:layout_height="match_parent"
                 android:gravity="center|bottom"
                 android:text="@string/adreca1"
+                android:textColor="@color/white"
+                android:textStyle="bold"
                 android:textSize="30sp"
                 />
-        </androidx.cardview.widget.CardView>
 
+        <RatingBar
+            android:id="@+id/R1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
+        </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
 
             android:id="@+id/Hotel2"
@@ -61,6 +77,11 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h2"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info2"
@@ -68,7 +89,16 @@
                 android:layout_height="match_parent"
                 android:gravity="center|bottom"
                 android:text="@string/adreca2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
                 android:textSize="30sp"/>
+
+
+        <RatingBar
+            android:id="@+id/R2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -78,12 +108,28 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h3"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </androidx.cardview.widget.CardView>
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca3"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+        <RatingBar
+            android:id="@+id/R3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
+    </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
 
@@ -93,11 +139,27 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
-
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h4"
+                android:scaleType="fitXY"/>
             <TextView
                 android:id="@+id/info4"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca4"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+
+        <RatingBar
+            android:id="@+id/R4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -108,11 +170,28 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h5"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info5"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca5"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+
+        <RatingBar
+            android:id="@+id/R5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -123,11 +202,28 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h6"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info6"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca6"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+        <RatingBar
+            android:id="@+id/R6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -138,11 +234,27 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h7"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info7"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca7"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+        <RatingBar
+            android:id="@+id/R7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -153,11 +265,27 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h8"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info8"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca8"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+        <RatingBar
+            android:id="@+id/R8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -167,11 +295,27 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h9"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info9"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca9"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+        <RatingBar
+            android:id="@+id/R9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
 
@@ -182,11 +326,27 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h10"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info10"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca10"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+        <RatingBar
+            android:id="@+id/R10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -196,11 +356,27 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h11"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info11"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca11"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+        <RatingBar
+            android:id="@+id/R11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -210,11 +386,27 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h12"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info12"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca12"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+        <RatingBar
+            android:id="@+id/R12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -224,11 +416,27 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h13"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info13"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca13"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+        <RatingBar
+            android:id="@+id/R13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -238,25 +446,58 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h14"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info14"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca14"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+        <RatingBar
+            android:id="@+id/R14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+
             android:id="@+id/Hotel15"
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_margin="10dp"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/h15"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/info15"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="@string/adreca15"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+        <RatingBar
+            android:id="@+id/R15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"/>
         </androidx.cardview.widget.CardView>
 
 
