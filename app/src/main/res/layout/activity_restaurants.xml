@@ -8,14 +8,12 @@
     android:background="@drawable/fondo"
 
     >
-    <LinearLayout
+    
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-        <include
-            layout="@layout/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+
 
         <TextView
             android:id="@+id/textViewRestaurant"
@@ -23,12 +21,28 @@
             android:layout_height="100dp"
             android:gravity="center"
             android:text="Restaurants"
-            android:textSize="40sp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textStyle="bold"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
 
-    </LinearLayout>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="70dp"
+            android:maxHeight="70dp"
+            android:scaleType="fitCenter"
+            android:paddingTop="20dp"
+            android:paddingLeft="15dp"
+            android:src="@drawable/flechaatras"
+            android:background="null"
+            android:id="@+id/fletxaenrere"
+            />
+
+
+
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -211,7 +225,7 @@
                 android:layout_row="3"
                 android:layout_column="3"
                 android:paddingLeft="5dp"
-                android:src="@drawable/mcdonalds"/>
+                android:src="@drawable/Mcdonalds"/>
 
             <Button
                 android:layout_width="90dp"
@@ -250,7 +264,7 @@
                 android:layout_row="4"
                 android:layout_column="3"
                 android:paddingLeft="5dp"
-                android:src="@drawable/mifune"/>
+                android:src="@drawable/Mifune"/>
 
             <Button
                 android:layout_width="90dp"
@@ -289,7 +303,7 @@
                 android:layout_row="5"
                 android:layout_column="3"
                 android:paddingLeft="5dp"
-                android:src="@drawable/wagaya"/>
+                android:src="@drawable/Wagaya"/>
         </GridLayout>
     </ScrollView>
 </LinearLayout>

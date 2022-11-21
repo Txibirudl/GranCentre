@@ -1,5 +1,6 @@
 package com.example.grancentre.Restaurants;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -11,6 +12,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 import android.os.Bundle;
+import android.widget.Toolbar;
 
 import com.example.grancentre.R;
 
@@ -20,6 +22,7 @@ public class Restaurants extends AppCompatActivity implements View.OnClickListen
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
+
 
 
 
@@ -277,7 +280,12 @@ public class Restaurants extends AppCompatActivity implements View.OnClickListen
 
         }
 
-        @Override
+    private void setSupportActionBar(Toolbar toolbar) {
+
+    }
+
+
+    @Override
         public void onClick(View view) {
 
         }
